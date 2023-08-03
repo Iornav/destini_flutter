@@ -78,7 +78,7 @@ class _StoryPageState extends State<StoryPage> {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20.0,
               ),
               Expanded(
