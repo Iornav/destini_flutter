@@ -11,6 +11,7 @@ class Destini extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       home: const StoryPage(),
     );
@@ -35,6 +36,7 @@ class _StoryPageState extends State<StoryPage> {
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage('images/background.png'),
+            fit: BoxFit.cover,
           ),
         ),
         padding: const EdgeInsets.symmetric(vertical: 50.0, horizontal: 15.0),
